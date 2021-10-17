@@ -50,6 +50,7 @@ export default {
       this.reminder = false;
     },
   },
+  emits: ["add-task"],
 };
 </script>
 

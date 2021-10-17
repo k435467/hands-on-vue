@@ -16,5 +16,6 @@ export default {
       this.$emit("btn-click");
     },
   },
+  emits: ["btn-click"],
 };
 </script>

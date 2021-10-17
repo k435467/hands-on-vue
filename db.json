@@ -10,7 +10,7 @@
       "id": "2",
       "text": "Meeting with boss",
       "day": "March 6th at 1:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": "3",
@@ -21,8 +21,14 @@
     {
       "text": "a1231",
       "day": "fasfe",
-      "reminder": true,
+      "reminder": false,
       "id": "Dsm2vAV"
+    },
+    {
+      "text": "1fdfsa",
+      "day": "fasefe",
+      "reminder": true,
+      "id": "7-KOYto"
     }
   ]
 }

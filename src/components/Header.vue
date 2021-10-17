@@ -31,6 +31,7 @@ export default {
       }
     },
   },
+  emits: ["toggle-add-task"],
 };
 </script>
 
