@@ -4,7 +4,7 @@ Hands-on the tutorial [vue-crash-2021](https://github.com/bradtraversy/vue-crash
 
 - [hands-on-vue](#hands-on-vue)
   - [Usage](#usage)
-  - [---------------](#---------------)
+  - [----- Vue 2 -----](#------vue-2------)
   - [Introduction](#introduction)
   - [Lifecycle](#lifecycle)
   - [Class and Style Bindings](#class-and-style-bindings)
@@ -38,7 +38,7 @@ yarn build  # Compiles and minifies for production
 yarn lint  # Lints and fixes files
 ```
 
-## ---------------
+## ----- Vue 2 -----
 
 ## Introduction
 
@@ -352,10 +352,22 @@ We can pass original DOM event into a method using the special `$event` variable
 
 ### $emit
 
+inline:
+
 ```html
 <button v-on:click="$emit('enlarge-text')">
   Enlarge text
 </button>
+```
+
+method:
+
+```js
+methods: {
+  handleClick() {
+    this.$emit('enlarge-text');
+  },
+},
 ```
 
 emitting a value with event. we can use $emit‘s 2nd parameter:
